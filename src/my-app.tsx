@@ -3,7 +3,7 @@ import { AppProvider } from './shared/providers/app-provider'
 
 const MyApp: React.FC = () => {
   return (
-    <AppProvider>
+     <AppProvider>
       <Home />
     </AppProvider>
   )

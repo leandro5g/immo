@@ -6,11 +6,13 @@ export const METRICS = {
     x12: RFValue(12),
   },
   MARGIN: {
+    x4: RFValue(4),
     x8: RFValue(8),
     x12: RFValue(12),
   },
   FONT_SIZE: {
     x12: RFValue(12),
+    x14: RFValue(14),
     x16: RFValue(16),
     x18: RFValue(18),
     x24: RFValue(24),

@@ -4,9 +4,9 @@ import { Container } from './rooms-immobile.styles'
 const RoomsImmobile: React.FC = () => {
   return (
     <Container>
-      <RoomInmobile count={20} key="SQUARE" icon="ArrowsOut" />
-      <RoomInmobile count={3} key="ROOM" icon="Bed" />
-      <RoomInmobile count={2} key="BATH" icon="Toilet" />
+      <RoomInmobile count={20} keyRoom="SQUARE" icon="ArrowsOut" />
+      <RoomInmobile count={3} keyRoom="ROOM" icon="Bed" />
+      <RoomInmobile count={2} keyRoom="BATH" icon="Toilet" />
     </Container>
   )
 }

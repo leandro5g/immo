@@ -6,9 +6,10 @@ type DefaultTextProps = TextProps & TextDefaultStyleProps
 const DefaultText: React.FC<DefaultTextProps> = ({
   variant = '',
   size = 'x12',
+  font = 'REGULAR',
   ...rest
 }) => {
-  return <Text variant={variant} size={size} {...rest} />
+  return <Text font={font} variant={variant} size={size} {...rest} />
 }
 
 export { DefaultText }

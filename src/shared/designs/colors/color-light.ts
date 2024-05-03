@@ -12,4 +12,7 @@ export const COLOR_LIGHT = {
   DEFAULT: {
     WHITE: '#FFF',
   },
+  TEXT: {
+    100: "#323238"
+  }
 }
