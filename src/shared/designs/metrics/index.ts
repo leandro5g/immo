@@ -18,8 +18,9 @@ export const METRICS = {
     x24: RFValue(24),
   },
   ICONS: {
-    x24: RFValue(24),
     x18: RFValue(18),
+    x20: RFValue(20),
+    x24: RFValue(24),
   },
 }
 

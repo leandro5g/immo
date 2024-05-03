@@ -3,10 +3,9 @@ import {
   ICON_PREFIX_ROOMS,
 } from 'app/shared/config/constants/map-rooms'
 
-import {
-  IconPhosphor,
-  IconKeyType,
-} from 'app/shared/components/libs/phosphor-icons/phosphor-icons.component'
+import { PhosphorIconsKey } from 'app/@types/models/libs/phosphor-icon'
+
+import { IconPhosphor } from 'app/shared/components/libs/phosphor-icons/phosphor-icons.component'
 
 import { Container, TextRoom } from './room-inmobile.styles'
 import { useTheme } from 'styled-components/native'
@@ -14,7 +13,7 @@ import { useTheme } from 'styled-components/native'
 type RoomInmobileProps = {
   keyRoom: keyof typeof ICON_MAP_ROOMS
   count: number
-  icon: IconKeyType
+  icon: PhosphorIconsKey
 }
 
 const RoomInmobile: React.FC<RoomInmobileProps> = ({ count, keyRoom, icon }) => {

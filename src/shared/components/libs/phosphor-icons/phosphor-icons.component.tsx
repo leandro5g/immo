@@ -1,15 +1,13 @@
 import * as PhosphorReactNative from 'phosphor-react-native'
 import { useTheme } from 'styled-components/native'
 
-import { Container } from './phosphor.styles'
+import { PhosphorIconElement, PhosphorIconsKey } from 'app/@types/models/libs/phosphor-icon'
 import { TYPE_METRICS } from 'app/shared/designs/metrics'
 
-type IconKeyType = keyof typeof PhosphorReactNative
-
-export type PhosphorIconElement = PhosphorReactNative.Icon
+import { Container } from './phosphor.styles'
 
 type IconPhosphorProps = {
-  icon: IconKeyType
+  icon: PhosphorIconsKey
   color?: string
   propsIcon?: PhosphorReactNative.IconProps
   sizeIcon?: keyof TYPE_METRICS['ICONS']
@@ -42,4 +40,4 @@ const IconPhosphor: React.FC<IconPhosphorProps> = ({
   )
 }
 
-export { IconPhosphor, IconKeyType }
+export { IconPhosphor }
