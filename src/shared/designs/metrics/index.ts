@@ -22,6 +22,9 @@ export const METRICS = {
     x20: RFValue(20),
     x24: RFValue(24),
   },
+  RADIUS: {
+    x12: RFValue(12)
+  }
 }
 
 export type TYPE_METRICS = typeof METRICS

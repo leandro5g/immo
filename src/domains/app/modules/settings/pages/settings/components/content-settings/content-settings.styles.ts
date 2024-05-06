@@ -1,6 +1,5 @@
 import styled from 'styled-components/native';
 
 export const Container = styled.View`
-  flex: 1;
-  background-color: ${({ theme }) => theme.COLORS.NEUTRAL[100]};
+  padding: 0px ${({ theme }) => theme.METRICS.PADDING.x8}px;
 `;

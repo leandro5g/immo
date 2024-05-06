@@ -1,6 +1,5 @@
 import styled from 'styled-components/native';
 
 export const Container = styled.View`
-  flex: 1;
-  background-color: ${({ theme }) => theme.COLORS.NEUTRAL[100]};
+  margin: ${({ theme }) => theme.METRICS.MARGIN.x12}px 0px;
 `;

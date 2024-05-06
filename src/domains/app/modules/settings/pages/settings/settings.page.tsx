@@ -1,12 +1,17 @@
 
-import { DefaultBackground } from '@app/shared/components/layouts/default-background/default-background.component';
+import { AppVersion } from '../../components/app-version/app-version.component';
+import { DefaultHeader } from '@app/domains/app/components/headers/default-header/default-header.component';
+import { ContentSettings } from './components/content-settings/content-settings.component';
+
 import { Container } from './settings.styles';
 
 const Settings: React.FC = () => {
   return (
-    <DefaultBackground>
-      
-    </DefaultBackground>
+    <Container>
+      <DefaultHeader title='Configurações' />
+      <ContentSettings />
+      <AppVersion />
+    </Container>
   )
 }
 

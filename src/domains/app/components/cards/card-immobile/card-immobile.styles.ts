@@ -4,7 +4,7 @@ import styled from 'styled-components/native'
 export const Container = styled.View`
   width: 100%;
   padding: ${RFValue(8)}px;
-  border-radius: ${RFValue(12)}px;
+  border-radius: ${({ theme }) => theme.METRICS.RADIUS.x12}px;
   background-color: ${({ theme }) => theme.COLORS.DEFAULT.WHITE};
   margin-bottom: ${RFValue(8)}px;
 `
