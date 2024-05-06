@@ -1,20 +1,15 @@
 
-import { HeaderBackground } from '@app/shared/components/layouts/header-background/header-background.component';
-import { Container, TitleHeader } from './header-home.styles';
-import { IconPhosphor } from '@app/shared/components/libs/phosphor-icons/phosphor-icons.component';
+import { AppHeader } from '@app/domains/app/components/headers/app-header/app-header.component';
+import { TabFilter } from '@app/domains/app/components/filters/tab-filter/tab-filter.component';
+
+import { Container } from './header-home.styles';
 
 const HeaderHome: React.FC = () => {
   return (
-   <HeaderBackground>
-    <Container>
-      <TitleHeader size='x24'>
-        immo
-      </TitleHeader>
-
-
-      <IconPhosphor icon='Bell' />
-    </Container>
-   </HeaderBackground>
+   <Container>
+    <AppHeader />
+    <TabFilter />
+   </Container>
   )
 }
 

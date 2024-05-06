@@ -4,5 +4,5 @@ export const Container = styled.View`
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin: ${({ theme }) => theme.METRICS.MARGIN.x12}px;
+  margin-top: ${({ theme }) => theme.METRICS.MARGIN.x12}px;
 `;

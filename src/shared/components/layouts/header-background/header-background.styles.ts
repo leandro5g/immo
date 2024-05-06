@@ -6,4 +6,5 @@ export const Container = styled.View`
   width: 100%;
   justify-content: center;
   padding: 0px ${({ theme }) => theme.METRICS.PADDING.x12}px;
+  background-color: ${({ theme }) => theme.COLORS.DEFAULT.WHITE}
 `;

@@ -1,14 +1,8 @@
-import { DefaultText } from '@app/shared/components/texts/default-text/default-text.component';
 import styled from 'styled-components/native';
 
 export const Container = styled.View`
-  flex: 1;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+  background-color: ${({ theme }) => theme.COLORS.DEFAULT.WHITE};
+  border-bottom-width: 1px;
+  border-color: ${({ theme }) => theme.COLORS.NEUTRAL[200]}
 `;
 
-export const TitleHeader = styled(DefaultText)`
-  font-family: ${({ theme }) => theme.FONTS.PRIMARY.BOLD};
-  color: ${({ theme }) => theme.COLORS.BRAND[100]};
-`;
