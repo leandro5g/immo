@@ -5,6 +5,7 @@ export const COLOR_LIGHT = {
   },
   NEUTRAL: {
     100: '#F1F3F4',
+    200: "#F1F3F4"
   },
   GRAY: {
     100: '#848FAC',
