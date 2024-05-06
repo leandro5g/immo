@@ -2,10 +2,10 @@ import { useEffect } from 'react';
 import { interpolate, useAnimatedStyle, useSharedValue, withSpring } from 'react-native-reanimated';
 import { useTheme } from 'styled-components/native';
 
-import { ViewAnimated } from 'app/shared/components/libs/animated-component/animated-component.component';
-import { IconPhosphor } from 'app/shared/components/libs/phosphor-icons/phosphor-icons.component';
+import { ViewAnimated } from '@app/shared/components/libs/animated-component/animated-component.component';
+import { IconPhosphor } from '@app/shared/components/libs/phosphor-icons/phosphor-icons.component';
 
-import { MAP_TAB_BAR } from 'app/shared/config/constants/map-tab-bar';
+import { MAP_TAB_BAR } from '@app/shared/config/constants/map-tab-bar';
 
 export type TabIconProps = {
   isFocused: boolean;

@@ -1,11 +1,11 @@
 import {
   ICON_MAP_ROOMS,
   ICON_PREFIX_ROOMS,
-} from 'app/shared/config/constants/map-rooms'
+} from '@app/shared/config/constants/map-rooms'
 
-import { PhosphorIconsKey } from 'app/@types/models/libs/phosphor-icon'
+import { PhosphorIconsKey } from '@app/@types/models/libs/phosphor-icon'
 
-import { IconPhosphor } from 'app/shared/components/libs/phosphor-icons/phosphor-icons.component'
+import { IconPhosphor } from '@app/shared/components/libs/phosphor-icons/phosphor-icons.component'
 
 import { Container, TextRoom } from './room-inmobile.styles'
 import { useTheme } from 'styled-components/native'

@@ -1,4 +1,4 @@
-import { RFValue } from 'app/shared/libs/fontSize/fontSize'
+import { RFValue } from '@app/shared/libs/fontSize/fontSize'
 
 export const METRICS = {
   PADDING: {

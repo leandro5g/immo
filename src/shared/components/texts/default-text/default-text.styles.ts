@@ -1,5 +1,5 @@
-import { TYPE_FONTS } from 'app/shared/designs/fonts'
-import { TYPE_METRICS } from 'app/shared/designs/metrics'
+import { TYPE_FONTS } from '@app/shared/designs/fonts'
+import { TYPE_METRICS } from '@app/shared/designs/metrics'
 import styled, { css } from 'styled-components/native'
 
 export type VARIANT_TEXT = 'P1' | ""

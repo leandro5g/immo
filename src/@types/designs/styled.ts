@@ -1,4 +1,4 @@
-import { LIGHT_THEME } from 'app/shared/designs/themes/light-theme'
+import { LIGHT_THEME } from '@app/shared/designs/themes/light-theme'
 import 'styled-components/native'
 
 declare module 'styled-components/native' {

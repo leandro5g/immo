@@ -1,8 +1,8 @@
 import * as PhosphorReactNative from 'phosphor-react-native'
 import { useTheme } from 'styled-components/native'
 
-import { PhosphorIconElement, PhosphorIconsKey } from 'app/@types/models/libs/phosphor-icon'
-import { TYPE_METRICS } from 'app/shared/designs/metrics'
+import { PhosphorIconElement, PhosphorIconsKey } from '@app/@types/models/libs/phosphor-icon'
+import { TYPE_METRICS } from '@app/shared/designs/metrics'
 
 import { Container } from './phosphor.styles'
 

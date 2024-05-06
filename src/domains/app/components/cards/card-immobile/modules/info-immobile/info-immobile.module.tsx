@@ -1,5 +1,5 @@
-import { DefaultText } from 'app/shared/components/texts/default-text/default-text.component'
-import { ValueImmobile } from 'app/shared/components/info-immobile/value-immobile/value-immobile.component'
+import { DefaultText } from '@app/shared/components/texts/default-text/default-text.component'
+import { ValueImmobile } from '@app/shared/components/info-immobile/value-immobile/value-immobile.component'
 
 import {
   Container,

@@ -1,4 +1,4 @@
-import { RFValue } from 'app/shared/libs/fontSize/fontSize'
+import { RFValue } from '@app/shared/libs/fontSize/fontSize'
 import styled from 'styled-components/native'
 import { MaterialIcons } from '@expo/vector-icons'
 

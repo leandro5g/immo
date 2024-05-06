@@ -1,5 +1,5 @@
-import { ViewAnimated } from 'app/shared/components/libs/animated-component/animated-component.component';
-import { RFValue } from 'app/shared/libs/fontSize/fontSize';
+import { ViewAnimated } from '@app/shared/components/libs/animated-component/animated-component.component';
+import { RFValue } from '@app/shared/libs/fontSize/fontSize';
 import styled from 'styled-components/native';
 
 const SIZE_FOCUS = RFValue(50)

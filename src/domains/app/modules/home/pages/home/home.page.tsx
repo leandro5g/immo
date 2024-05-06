@@ -1,11 +1,11 @@
 
 import { ImageBackground, ScrollView } from 'react-native'
 
-import { CardImmobile } from 'app/domains/logged/components/cards/card-immobile/card-immobile.component'
+import { CardImmobile } from '@app/domains/app/components/cards/card-immobile/card-immobile.component'
 import { HeaderHome } from './components/header-home/header-home.component'
 import Image from "../../assets/bg-header/light/bg-header-light.png"
 import { Container, Content } from "./home.style"
-import { TabFilter } from 'app/domains/logged/components/filters/tab-filter/tab-filter.component'
+import { TabFilter } from '@app/domains/app/components/filters/tab-filter/tab-filter.component'
 
 const Home: React.FC = () => {
   return (

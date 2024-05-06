@@ -1,7 +1,7 @@
 
-import { HeaderBackground } from 'app/shared/components/layouts/header-background/header-background.component';
+import { HeaderBackground } from '@app/shared/components/layouts/header-background/header-background.component';
 import { Container, TitleHeader } from './header-home.styles';
-import { IconPhosphor } from 'app/shared/components/libs/phosphor-icons/phosphor-icons.component';
+import { IconPhosphor } from '@app/shared/components/libs/phosphor-icons/phosphor-icons.component';
 
 const HeaderHome: React.FC = () => {
   return (
