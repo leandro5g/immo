@@ -1,5 +1,5 @@
 
-import { AppVersion } from '../../components/app-version/app-version.component';
+import { AppVersion } from './components/app-version/app-version.component';
 import { DefaultHeader } from '@app/domains/app/components/headers/default-header/default-header.component';
 import { ContentSettings } from './components/content-settings/content-settings.component';
 

@@ -14,6 +14,9 @@ export const COLOR_LIGHT = {
     WHITE: '#FFF',
   },
   TEXT: {
-    100: "#323238"
+    100: "#323238",
+    200: '#848FAC'
   }
 }
+
+export type COLOR_TYPE = typeof COLOR_LIGHT
