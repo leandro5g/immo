@@ -9,6 +9,7 @@ export const METRICS = {
     x4: RFValue(4),
     x8: RFValue(8),
     x12: RFValue(12),
+    x24: RFValue(24),
   },
   FONT_SIZE: {
     x12: RFValue(12),
