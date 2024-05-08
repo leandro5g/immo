@@ -4,17 +4,22 @@ import { DefaultText } from '@app/shared/components/texts/default-text/default-t
 
 import { Container, Content, Subtitle } from './header-auth.styles';
 
-const HeaderAuth: React.FC = () => {
+type HeaderAuthProps = {
+  title: string
+  subTitle: string
+}
+
+const HeaderAuth: React.FC<HeaderAuthProps> = ({ title, subTitle }) => {
   return (
     <Container>
       <ButtonBack />
       <Content>
         <DefaultText font='MEDIUM' size='x24'>
-          Login
+          {title}
         </DefaultText>
 
         <Subtitle font='REGULAR' color={200} size='x14'>
-        Your dream home is waiting – let's sign you up and embark on this adventure together!
+        {subTitle}
         </Subtitle>
       </Content>
     </Container>

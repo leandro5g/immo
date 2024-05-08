@@ -7,6 +7,9 @@ export const COLOR_LIGHT = {
     100: '#F1F3F4',
     200: "#F1F3F4"
   },
+  DANGER: {
+    100: "#FB433A"
+  },
   GRAY: {
     100: '#848FAC',
   },

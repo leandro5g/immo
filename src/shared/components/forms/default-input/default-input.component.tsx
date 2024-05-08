@@ -1,27 +1,44 @@
-import { IconPhosphor } from '../../libs/phosphor-icons/phosphor-icons.component';
+import { Control, Controller, useFormContext } from 'react-hook-form';
 
-import { 
-  Container, 
-  ContainerInput, 
-  ContentIcon, 
-  Input, 
-  LabelInput 
-} from './default-input.styles';
+import { InputProps, Input } from './modules/input/input.module';
 
-const DefaultInput: React.FC = () => {
+import { Container, LabelInput, TextError } from './default-input.styles';
+
+type DefaultInputProps = InputProps & {
+  label: string
+  name: string
+}
+
+const DefaultInput: React.FC<DefaultInputProps> = ({ name, label, ...rest }) => {
+  const { control, formState: { errors } } = useFormContext()
+  
+  const errorField = errors?.[name]?.message as string
+
   return (
     <Container>
       <LabelInput font='MEDIUM' size='x14'>
-        Username or Email
+        {label}
       </LabelInput>
 
-      <ContainerInput>
-        <ContentIcon>
-          <IconPhosphor icon='Lock' />
-        </ContentIcon>
+      <Controller 
+      name={name}
+        control={control}
+        render={({ field: { value, onChange } }) => (
+          <Input 
+            hasError={!!errorField}
+            value={value}
+            onChangeText={onChange}
+            {...rest}
+          />
+        )}
+      />
 
-        <Input placeholder='Enter your username or email'/>
-      </ContainerInput>
+      {errorField && (
+        <TextError font='MEDIUM' size='x12'>
+        {errorField}
+        </TextError>
+      )}
+
     </Container>
   )
 }

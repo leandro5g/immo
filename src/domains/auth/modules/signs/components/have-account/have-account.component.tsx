@@ -1,16 +1,20 @@
 import { DefaultText } from '@app/shared/components/texts/default-text/default-text.component';
-import { Container } from './have-account.styles';
 import { ButtonVoid } from '@app/shared/components/buttons/button-void/button-void.component';
 
-const HaveAccount: React.FC = () => {
+import { Container } from './have-account.styles';
+
+const HaveAccount: React.FC<{ hasFromLogin?: boolean }> = ({ hasFromLogin }) => {
+  const initialText = hasFromLogin ? "Não" : "Já"
+  const buttonText = hasFromLogin ? "Cadrastrar-se" : "Entrar"
+
   return (
     <Container>
       <DefaultText font='REGULAR' size='x14'>
-        Doesn’t have an account?
+       {initialText} possui uma conta?
       </DefaultText>
       <ButtonVoid>
       <DefaultText font='SEMI_BOLD' size='x14'>
-        {" "}Sign up
+        {" "} {buttonText}
       </DefaultText>
       </ButtonVoid>
     </Container>
