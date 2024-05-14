@@ -5,7 +5,7 @@ import { Routes } from './shared/routes'
 const MyApp: React.FC = () => {
   return (
      <AppProvider>
-      <SignIn />
+      <Routes />
     </AppProvider>
   )
 }
